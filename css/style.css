@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    /* outline: 1px solid red; */
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 2rem 0;
+}
+
+.info .picture{
+    /* outline: 2px solid red; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.info .img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.3);
+}
+
+.info .paragraph{
+    font-weight: 500;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.links .link{
+    background-color: rgb(207, 144, 80);
+    color: orangered;
+    flex-grow: 1;
+    flex-basis: 400px;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links .link--blue{
+    background-color: rgb(158, 158, 255);
+    color: rgba(0, 0, 255, 0.75);
+}
+
+.links .networks{
+    padding: 1rem 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.networks .img{
+    /* outline: 1px solid; */
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    /* padding: 0; */
+}
